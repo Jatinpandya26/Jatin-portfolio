@@ -1,0 +1,51 @@
+.groupChild,
+.productManagement {
+  position: absolute;
+  left: 0;
+  width: 131px;
+}
+.groupChild {
+  top: 0;
+  border-radius: var(--br-sm);
+  background: linear-gradient(
+    214.02deg,
+    rgba(255, 92, 239, 0.9),
+    #671ae4 85.42%
+  );
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  height: 106px;
+}
+.productManagement {
+  top: 75px;
+  line-height: 120%;
+  display: inline-block;
+}
+.rectangleParent,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 131px;
+  height: 106px;
+}
+.vectorIcon {
+  height: 45.28%;
+  width: 37.72%;
+  top: 15.09%;
+  right: 31.74%;
+  bottom: 39.62%;
+  left: 30.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupParent {
+  position: relative;
+  width: 131px;
+  height: 106px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,194 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-137xl);
+  width: 192.5px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.communities {
+  position: absolute;
+  top: 5px;
+  left: 5.5px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+.communitiesWrapper {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background: linear-gradient(214.02deg, #fff, #fff);
+  width: 156px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.communitiesTitle,
+.vectorParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.vectorParent {
+  width: 1440px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-4xs);
+}
+.communitiesTitle {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  align-items: flex-start;
+}
+.microsoftLearnStudentAmbass {
+  position: absolute;
+  top: 22.38px;
+  left: 14px;
+  width: 144px;
+  height: 125.56px;
+  object-fit: cover;
+}
+.microsoftLearnStudentAmbassWrapper {
+  position: relative;
+  border-radius: var(--br-61xl);
+  background-color: var(--color-darkslateblue);
+  box-shadow: var(--shadows-black30);
+  width: 171px;
+  height: 171px;
+  flex-shrink: 0;
+}
+.theAmazonStudentCommunity {
+  position: absolute;
+  top: 0.73px;
+  left: -4.5px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.theAmazonStudentCommunityWrapper {
+  position: relative;
+  border-radius: var(--br-61xl);
+  background-color: var(--color-deepskyblue);
+  box-shadow: var(--shadows-black30);
+  width: 171px;
+  height: 173.7px;
+  flex-shrink: 0;
+}
+.hackTheLeagueTransperent {
+  position: absolute;
+  top: 33.73px;
+  left: 20px;
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+}
+.hackTheLeagueTransperentWrapper {
+  position: relative;
+  border-radius: var(--br-61xl);
+  background-color: var(--color-white);
+  box-shadow: var(--shadows-black30);
+  width: 171px;
+  height: 173.7px;
+  flex-shrink: 0;
+}
+.communityBlurbs {
+  align-self: stretch;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-119xl);
+  align-items: center;
+  justify-content: space-between;
+}
+.image7Icon {
+  position: absolute;
+  top: 27.03px;
+  left: 16px;
+  width: 339px;
+  height: 92.04px;
+  object-fit: cover;
+}
+.card {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  box-shadow: var(--shadows-black30);
+  width: 372px;
+  height: 137.78px;
+  flex-shrink: 0;
+}
+.image6Icon {
+  position: absolute;
+  top: 26.03px;
+  left: 6px;
+  width: 359px;
+  height: 94.43px;
+  object-fit: cover;
+}
+.card1 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  box-shadow: var(--shadows-black30);
+  width: 372px;
+  height: 137.78px;
+  flex-shrink: 0;
+}
+.communityBadges {
+  align-self: stretch;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-173xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.communitiesSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xl) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-64xl);
+  text-align: left;
+  font-size: var(--text-big-size);
+  color: var(--color-blueviolet-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .communityBlurbs {
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+  .card {
+    margin-right: 20px;
+  }
+  .communityBadges {
+    padding-left: var(--padding-111xl);
+    padding-right: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hackTheLeagueTransperentWrapper,
+  .microsoftLearnStudentAmbassWrapper,
+  .theAmazonStudentCommunityWrapper {
+    margin-right: 20px;
+  }
+  .communityBadges,
+  .communityBlurbs {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .microsoftLearnStudentAmbassWrapper {
+    margin-right: 20px;
+  }
+  .communityBadges,
+  .communityBlurbs {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

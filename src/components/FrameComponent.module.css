@@ -1,0 +1,32 @@
+.bitmapIcon {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 272px;
+  height: 160px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.design,
+.outsourceYourDigit {
+  position: absolute;
+  top: 186px;
+  left: 0;
+  line-height: 32px;
+}
+.outsourceYourDigit {
+  top: 225px;
+  font-size: var(--h4-size);
+  display: inline-block;
+  width: 270px;
+}
+.bitmapParent {
+  position: relative;
+  width: 273px;
+  height: 321px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--text-big-size);
+  color: var(--color-white);
+  font-family: var(--h4);
+}

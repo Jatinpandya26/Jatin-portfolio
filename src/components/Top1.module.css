@@ -1,0 +1,166 @@
+.experience {
+  position: relative;
+}
+.productTitleChild {
+  position: relative;
+  border-radius: var(--br-137xl);
+  width: 192.5px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.product {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+.productWrapper {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background: linear-gradient(214.02deg, #fff, #fff);
+  width: 122px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.productTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.cardChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    214.02deg,
+    rgba(255, 92, 239, 0.9) 7.81%,
+    rgba(103, 26, 228, 0.96) 73.44%
+  );
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  width: 288px;
+  height: 460px;
+}
+.productManager {
+  margin: 0;
+}
+.atsign,
+.productManagerAndContainer {
+  position: absolute;
+  top: 317.75px;
+  left: 32px;
+  line-height: 120%;
+}
+.atsign {
+  top: 256px;
+  left: 111px;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+}
+.atsignLogoPrimaryStacked4cIcon {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  width: 208px;
+  height: 168px;
+  object-fit: cover;
+}
+.card,
+.cardItem {
+  width: 288px;
+  height: 460px;
+}
+.card {
+  position: relative;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.cardItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(214.02deg, rgba(255, 92, 239, 0.9), #671ae4);
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+}
+.konfhub,
+.uxDesignAnd {
+  position: absolute;
+  top: 317.75px;
+  left: 20px;
+  line-height: 120%;
+  display: inline-block;
+  width: 249px;
+  height: 36px;
+}
+.konfhub {
+  top: 256px;
+  left: 24px;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  width: 245px;
+  height: 72.31px;
+}
+.download1Icon {
+  position: absolute;
+  top: 113px;
+  left: 16px;
+  width: 256px;
+  height: 67.72px;
+  overflow: hidden;
+}
+.card1 {
+  position: relative;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.25);
+  width: 288px;
+  height: 460px;
+  flex-shrink: 0;
+}
+.productCards {
+  width: 1379px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-57xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--h4-size);
+  color: var(--color-white);
+}
+.productSection,
+.top {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-49xl);
+  font-size: var(--text-big-size);
+  color: var(--color-blueviolet-100);
+  font-family: var(--font-poppins);
+}
+.top {
+  padding: var(--padding-23xl) 0;
+  align-items: center;
+  gap: var(--gap-22xl);
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    margin-bottom: 30px;
+  }
+  .card1 {
+    margin-bottom: 20px;
+  }
+  .productCards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
